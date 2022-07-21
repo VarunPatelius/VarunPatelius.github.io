@@ -1,0 +1,131 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: #cccccc;
+    background-image: url("../../static/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio {
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.fade-animation {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    animation: fadeIn 3s;
+    text-align: center;
+}
+
+.subheading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.container {
+    background-color: white;
+    padding: 0px 50px 10px 50px;
+    border: 4px solid;
+    border-radius: 10px;
+    margin: 30px 30px 30px 30px;
+    max-width: 800px;
+}
+
+.tiktok {
+    overflow: scroll;
+    max-height: 700px;
+}
+
+.socials {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 0px;
+}
+
+.social-icon {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 3px solid;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.fab {
+    transform: translate(0%, 55%);
+}
+
+.social-icon:nth-child(1) {
+    border-color: #00F2EA;
+}
+
+.social-icon:nth-child(2) {
+    border-color: #EB1C14;
+}
+
+.social-icon:nth-child(3) {
+    border-color: #0077b5;
+}
+
+.social-icon:nth-child(4) {
+    border-color: #333;
+}
+
+.social-icon:nth-child(5) {
+    border-color: #7289DA;
+}
+
+.social-icon:nth-child(6) {
+    border-color: #D72888;
+}
+
+.social-icon:nth-child(1) a {
+    color: #00F2EA;
+}
+
+.social-icon:nth-child(2) a {
+    color: #EB1C14;
+}
+
+.social-icon:nth-child(3) a {
+    color: #0077b5;
+}
+
+.social-icon:nth-child(4) a {
+    color: #333;
+}
+
+.social-icon:nth-child(5) a {
+    color: #7289DA;
+}
+
+.social-icon:nth-child(6) a {
+    color: #D72888;;
+}
